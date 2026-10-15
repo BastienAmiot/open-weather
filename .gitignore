@@ -1,0 +1,25 @@
+# Environnement python
+.venv/
+.env
+__pycache__/
+*.pyc
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# dbt
+dbt/target/
+dbt/dbt_modules/
+dbt/logs/
+
+# Fichiers locaux
+*.log
+
+# Cahier des charges
+*.pdf
+
+# Fichiers caches
+*.cache*
